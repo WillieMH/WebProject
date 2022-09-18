@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1ab9f0;
+  font-family: verdana, sans-serif;
+}
+
+main {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px dashed black;
+  background-color: #fffbf0;
+}

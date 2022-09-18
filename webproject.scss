@@ -1,0 +1,22 @@
+$font-body: verdana, sans-serif;
+
+$color-background: #fffbf0;
+$color-light-text: #1ab9f0;
+$color-dark-text: #384266;
+$color-nav-nohover: #fffcdd;
+$color-button2: #394166;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: $color-light-text;
+  font-family: $font-body;
+}
+
+main {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px dashed black;
+  background-color: $color-background;
+}
