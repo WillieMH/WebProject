@@ -15,14 +15,15 @@ $color-button2: #394166;
 }
 
 main {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
   background-color: $color-background;
   text-align: center;
 }
 
 #logoImg {
-  width: 220px;
+  width: 280px;
+  margin-left: 20px;
 }
 
 #loginButton {
@@ -33,6 +34,7 @@ main {
   background-color: $color-background;
   border: 1px solid black;
   border-radius: 4px;
+  margin-right: 20px;
 }
 
 header {
@@ -41,8 +43,8 @@ header {
   display: flex;
   align-content: center;
   justify-content: space-between;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 10px;
+  
 }
 
 h1 {
@@ -102,22 +104,22 @@ p, span {
   padding-bottom: 0;
 }
 
-.footerFlex {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 140px;
+footer {
   width: 100%;
+  margin: auto;
+  text-align: center;
   background-color: $color-nav-nohover;
 }
-/*
-.footerFlexDiv {
-  padding: 20px;
+
+.button2 {
+  display: block;
+  padding: 18px;
+
 }
-*/
 
 a:link, :visited {
   text-decoration: none;
+  font-weight: bold;
   color: $color-dark-text;
 }
 
