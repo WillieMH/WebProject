@@ -15,14 +15,14 @@ $color-button2: #394166;
 }
 
 main {
-  width: 600px;
+  width: 750px;
   margin: 0 auto;
   background-color: $color-background;
   text-align: center;
 }
 
 #logoImg {
-  width: 280px;
+  width: auto;
   margin-left: 20px;
 }
 
@@ -126,4 +126,16 @@ a:link, :visited {
 a:hover {
   background-color: $color-dark-text;
   color: $color-nav-nohover;
+}
+
+@media only screen and (max-width: 767px) {
+  main {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  main {
+    width: 450px;
+  }
 }
