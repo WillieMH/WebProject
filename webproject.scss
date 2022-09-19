@@ -10,14 +10,13 @@ $color-button2: #394166;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: $color-light-text;
+
   font-family: $font-body;
 }
 
 main {
   width: 500px;
   margin: 0 auto;
-  border: 1px dashed black;
   background-color: $color-background;
   text-align: center;
 }
@@ -30,6 +29,7 @@ main {
   width: 80px;
   height: 35px;
   align-self: center;
+  color: $color-dark-text;
   background-color: $color-background;
   border: 1px solid black;
   border-radius: 4px;
@@ -38,10 +38,90 @@ main {
 header {
   width: auto;
   height: 10vh;
-  border: 1px solid black;
   display: flex;
   align-content: center;
   justify-content: space-between;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+h1 {
+  padding: 20px;
+  color: $color-light-text;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 20px;
+  color: $color-dark-text;
+}
+
+h3 {
+  padding: 20px;
+  color: $color-light-text;
+}
+
+#bodyPara {
+  padding: 20px;
+  color: $color-dark-text;
+}
+
+.mainButton {
+  width: 200px;
+  height: 35px;
+  margin: 20px;
+  color: white;
+  background-color: $color-button2;
+  border: 1px solid $color-background;
+  border-radius: 4px;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+}
+
+p, span {
+  color: $color-dark-text;
+}
+
+.spanBold {
+  font-weight: bold;
+}
+
+.spanItalic {
+  font-style: italic;
+}
+
+#bottomSection {
+  padding-top: 30px;
+  padding-bottom: 0;
+}
+
+.footerFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 140px;
+  width: 100%;
+  background-color: $color-nav-nohover;
+}
+/*
+.footerFlexDiv {
+  padding: 20px;
+}
+*/
+
+a:link, :visited {
+  text-decoration: none;
+  color: $color-dark-text;
+}
+
+a:hover {
+  background-color: $color-dark-text;
+  color: $color-nav-nohover;
 }
